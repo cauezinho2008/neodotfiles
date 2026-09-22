@@ -1,0 +1,13 @@
+[General]
+count=1
+rules=cbbdcfdd-5c15-459e-896a-933b817bfd4a
+
+[cbbdcfdd-5c15-459e-896a-933b817bfd4a]
+Description=Window settings for java
+desktopfile=/home/caue/.local/share/applications/1.21.11 vk.desktop
+desktopfilerule=3
+desktops=7fa27feb-c29f-4e5c-a5fe-a9c4b1173664
+desktopsrule=3
+types=1
+wmclass=java
+wmclassmatch=1

@@ -1,0 +1,20 @@
+[CreateDialog]
+LastMimeType=application/zip
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:$HOME/
+
+[Open-with settings]
+History=audacious,org.kde.kwrite,kitty,mpv,qmmp-dir,blender,org.kde.gwenview
+LastChoice=audacious
+
+[SettingsDialog]
+1920x1080 screen: Height=647
+1920x1080 screen: Width=1122
+
+[State]
+1080x1920 screen: Window-Maximized=true
+1920x1080 screen: Height=660
+1920x1080 screen: Width=1011
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACQAAACZvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAAA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAuAAACZgAAAFMA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAAA////AAADYgAAAmYAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=

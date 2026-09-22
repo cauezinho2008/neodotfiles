@@ -1,0 +1,17 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-0c2002fc-72d1-48d4-8cc6-af3ab53afb18]
+ordering=applications:helium.desktop,applications:1.21.11 vk.desktop,applications:systemsettings.desktop,applications:org.kde.kdenlive.desktop,applications:org.kde.dolphin.desktop,applications:localsend.desktop,applications:audacity.desktop,applications:blender.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
+ordering=applications:helium.desktop,applications:1.21.11 vk.desktop,applications:systemsettings.desktop,applications:org.kde.kdenlive.desktop,applications:org.kde.dolphin.desktop,applications:localsend.desktop,applications:audacity.desktop,applications:blender.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-33-0c2002fc-72d1-48d4-8cc6-af3ab53afb18]
+ordering=applications:org.prismlauncher.PrismLauncher.desktop,applications:systemsettings.desktop,applications:org.kde.kdenlive.desktop,applications:org.kde.dolphin.desktop,applications:localsend.desktop,applications:steam.desktop,applications:ardour9.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-33-global]
+ordering=applications:org.prismlauncher.PrismLauncher.desktop,applications:systemsettings.desktop,applications:org.kde.kdenlive.desktop,applications:org.kde.dolphin.desktop,applications:localsend.desktop,applications:steam.desktop,applications:ardour9.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-88-0c2002fc-72d1-48d4-8cc6-af3ab53afb18]
+ordering=applications:helium.desktop,applications:org.prismlauncher.PrismLauncher.desktop,applications:systemsettings.desktop,applications:org.kde.kdenlive.desktop,applications:org.kde.dolphin.desktop,applications:localsend.desktop,applications:steam.desktop,applications:ardour9.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-88-global]
+ordering=applications:helium.desktop,applications:org.prismlauncher.PrismLauncher.desktop,applications:systemsettings.desktop,applications:org.kde.kdenlive.desktop,applications:org.kde.dolphin.desktop,applications:localsend.desktop,applications:steam.desktop,applications:ardour9.desktop

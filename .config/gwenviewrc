@@ -1,0 +1,40 @@
+[Crop]
+CropAdvancedSettingsEnabled=true
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+ThumbnailBarIsVisible=true
+
+[ImageView]
+ThumbnailSplitterSizes=517,69
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/fotos gopro/GP010385.JPG
+File10[$e]=$HOME/Pictures/fotos gopro/GP010397.JPG
+File2[$e]=$HOME/Pictures/fotos gopro/GP010386.JPG
+File3[$e]=$HOME/Pictures/fotos gopro/GP010387.JPG
+File4[$e]=$HOME/Pictures/fotos gopro/GP010388.JPG
+File5[$e]=$HOME/Pictures/fotos gopro/GP010390.JPG
+File6[$e]=$HOME/Pictures/fotos gopro/GP010391.JPG
+File7[$e]=$HOME/Pictures/fotos gopro/GP010394.JPG
+File8[$e]=$HOME/Pictures/fotos gopro/GP010395.JPG
+File9[$e]=$HOME/Pictures/fotos gopro/GP010396.JPG
+Name1[$e]=GP010385.JPG
+Name10[$e]=GP010397.JPG
+Name2[$e]=GP010386.JPG
+Name3[$e]=GP010387.JPG
+Name4[$e]=GP010388.JPG
+Name5[$e]=GP010390.JPG
+Name6[$e]=GP010391.JPG
+Name7[$e]=GP010394.JPG
+Name8[$e]=GP010395.JPG
+Name9[$e]=GP010396.JPG
+
+[SideBar]
+InformationSplitterSizes=219,256
+IsVisible ViewMode=true
+SideBarSplitterSizes=266,789

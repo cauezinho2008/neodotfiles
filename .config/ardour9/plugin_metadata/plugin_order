@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginOrder>
+  <PluginInfo sort="0" unique-id="urn:ardour:a-comp" expanded="0"/>
+  <PluginInfo sort="1" unique-id="urn:ardour:a-delay" expanded="0"/>
+  <PluginInfo sort="2" unique-id="urn:ardour:a-eq" expanded="0"/>
+  <PluginInfo sort="3" unique-id="urn:ardour:a-reverb" expanded="0"/>
+</PluginOrder>

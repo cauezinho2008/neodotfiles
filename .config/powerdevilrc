@@ -1,0 +1,22 @@
+[AC][Display]
+DimDisplayIdleTimeoutSec=840
+TurnOffDisplayIdleTimeoutSec=900
+TurnOffDisplayIdleTimeoutWhenLockedSec=120
+
+[AC][Performance]
+PowerProfile=performance
+
+[AC][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=1800
+
+[Battery][Performance]
+PowerProfile=balanced
+
+[Battery][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=300
+
+[Inhibitions]
+BlockedInhibitions=powerprofilesctl launch -p performance -r Launched with CachyOS game-performance utility -- /home/caue/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- /home/caue/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=2727490 -- /home/caue/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /usr/share/steam/compatibilitytools.d/proton-cachyos-slr/proton waitforexitandrun /home/caue/.local/share/Steam/steamapps/common/BLITZ ARENA/BlitzArena.exe:CachyOS game-performance is running
+
+[LowBattery][Performance]
+PowerProfile=power-saver

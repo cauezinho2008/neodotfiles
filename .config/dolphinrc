@@ -1,0 +1,48 @@
+MenuBar=Disabled
+
+[ContextMenu]
+ShowAddToPlaces=false
+ShowCopyLocation=false
+ShowCopyMoveMenu=false
+ShowCopyToOtherSplitView=false
+ShowDuplicateHere=false
+ShowMoveToOtherSplitView=false
+ShowOpenInNewTab=false
+ShowOpenInNewWindow=false
+ShowOpenInSplitView=false
+ShowOpenTerminal=false
+ShowSortBy=false
+ShowViewMode=false
+
+[General]
+BrowseThroughArchives=true
+CloseSplitViewChoice=RightView
+ConfirmClosingMultipleTabs=false
+ConfirmClosingTerminalRunningProgram=false
+DoubleClickViewAction=none
+HideXTrashFile=true
+RememberOpenedTabs=false
+ShowFullPathInTitlebar=true
+ShowStatusBar=Disabled
+Version=202
+ViewPropsTimestamp=2026,7,9,20,54,17.662
+
+[IconsMode]
+PreviewSize=80
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[Notification Messages]
+ConfirmRenameFileType=false
+warnAboutRisksBeforeActingAsAdmin=false
+
+[PreviewSettings]
+Plugins=ffmpegthumbnailer,appimagethumbnail,audiothumbnail,glycin-heif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mltpreview,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,glycin-svg,svgthumbnail,ffmpegthumbs,exe-thumbnailer
+
+[VersionControl]
+enabledPlugins=

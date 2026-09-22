@@ -1,0 +1,17 @@
+[General]
+history=
+historyBehavior=Disabled
+
+[Plugins]
+baloosearchEnabled=false
+browserhistoryEnabled=false
+browsertabsEnabled=false
+krunner_appstreamEnabled=false
+krunner_bookmarksrunnerEnabled=false
+krunner_katesessionsEnabled=false
+krunner_konsoleprofilesEnabled=false
+krunner_webshortcutsEnabled=false
+org.kde.activities2Enabled=false
+
+[Plugins][Favorites]
+plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings

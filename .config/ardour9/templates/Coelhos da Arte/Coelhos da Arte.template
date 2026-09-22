@@ -1,0 +1,1770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session version="7003" id-counter="11296" rg-counter="83" name-counter="1" event-counter="266" vca-counter="1">
+  <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+  <MIDIPorts>
+    <Port name="Cue Control in" type="midi" direction="Input"/>
+    <Port name="MIDI Clock out" type="midi" direction="Output"/>
+    <Port name="MMC in" type="midi" direction="Input"/>
+    <Port name="MMC out" type="midi" direction="Output"/>
+    <Port name="MTC out" type="midi" direction="Output"/>
+    <Port name="Scene in" type="midi" direction="Input"/>
+    <Port name="Scene out" type="midi" direction="Output">
+      <Connection other="Click/audio_out 1"/>
+    </Port>
+    <Port name="x-virtual-keyboard" type="midi" direction="Output"/>
+  </MIDIPorts>
+  <Config>
+    <Option name="use-region-fades" value="1"/>
+    <Option name="use-transport-fades" value="1"/>
+    <Option name="use-monitor-fades" value="1"/>
+    <Option name="native-file-data-format" value="FormatFloat"/>
+    <Option name="native-file-header-format" value="RF64_WAV"/>
+    <Option name="auto-play" value="0"/>
+    <Option name="auto-return" value="0"/>
+    <Option name="auto-input" value="1"/>
+    <Option name="triggerbox-overrides-disk-monitoring" value="1"/>
+    <Option name="cue-behavior" value="FollowCues"/>
+    <Option name="punch-in" value="0"/>
+    <Option name="punch-out" value="0"/>
+    <Option name="count-in" value="0"/>
+    <Option name="session-monitoring" value=""/>
+    <Option name="record-mode" value="RecLayered"/>
+    <Option name="draw-opaque-midi_regions" value="0"/>
+    <Option name="subframes-per-frame" value="100"/>
+    <Option name="timecode-format" value="timecode_30"/>
+    <Option name="minitimeline-span" value="120"/>
+    <Option name="track-name-number" value="0"/>
+    <Option name="track-name-take" value="1"/>
+    <Option name="take-name" value="Take7"/>
+    <Option name="jack-time-master" value="1"/>
+    <Option name="use-video-sync" value="0"/>
+    <Option name="video-pullup" value="0"/>
+    <Option name="external-sync" value="0"/>
+    <Option name="insert-merge-policy" value="InsertMergeRelax"/>
+    <Option name="timecode-offset" value="0"/>
+    <Option name="timecode-offset-negative" value="1"/>
+    <Option name="slave-timecode-offset" value=" 00:00:00:00"/>
+    <Option name="timecode-generator-offset" value=" 00:00:00:00"/>
+    <Option name="midi-copy-is-fork" value="1"/>
+    <Option name="tracks-follow-session-time" value="0"/>
+    <Option name="realtime-export" value="0"/>
+    <Option name="use-surround-master" value="0"/>
+    <Option name="use-video-file-fps" value="0"/>
+    <Option name="videotimeline-pullup" value="1"/>
+    <Option name="wave-amplitude-zoom" value="0"/>
+    <Option name="wave-zoom-factor" value="2"/>
+    <Option name="show-summary" value="1"/>
+    <Option name="show-vertical-summary" value="0"/>
+    <Option name="show-group-tabs" value="1"/>
+    <Option name="show-region-fades" value="1"/>
+    <Option name="show-busses-on-meterbridge" value="0"/>
+    <Option name="show-master-on-meterbridge" value="1"/>
+    <Option name="show-midi-on-meterbridge" value="1"/>
+    <Option name="show-rec-on-meterbridge" value="1"/>
+    <Option name="show-mute-on-meterbridge" value="0"/>
+    <Option name="show-solo-on-meterbridge" value="0"/>
+    <Option name="show-monitor-on-meterbridge" value="0"/>
+    <Option name="show-name-on-meterbridge" value="1"/>
+    <Option name="show-fader-on-meterbridge" value="0"/>
+    <Option name="meterbridge-label-height" value="0"/>
+    <Option name="show-master-bus-comment-on-load" value="0"/>
+    <Option name="default-time-domain" value="AudioTime"/>
+  </Config>
+  <Metadata/>
+  <Sources/>
+  <TriggerBindings/>
+  <Regions/>
+  <Locations>
+    <Location id="11298" name="session" start="a0" end="a0" flags="IsSessionRange" locked="0" timestamp="1783730820" cue="0"/>
+  </Locations>
+  <Bundles/>
+  <VCAManager/>
+  <Routes>
+    <Route version="7003" id="78" name="Master" default-type="audio" strict-io="1" volume-applies-to-output="1" active="1" denormal-protection="0" meter-point="MeterOutput" disk-io-point="DiskIOPreFader" meter-type="MeterK14">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="0" flags="MasterOut,OrderSet" color="2855877119"/>
+      <Controllable name="solo" id="86" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="92" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="94" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Master" id="107" direction="Input" default-type="audio">
+        <Port name="Master/audio_in 1" type="audio" direction="Input">
+          <Connection other="Audio 1/audio_out 1"/>
+          <Connection other="Audio 10/audio_out 1"/>
+          <Connection other="Audio 11/audio_out 1"/>
+          <Connection other="Audio 12/audio_out 1"/>
+          <Connection other="Audio 13/audio_out 1"/>
+          <Connection other="Audio 14/audio_out 1"/>
+          <Connection other="Audio 15/audio_out 1"/>
+          <Connection other="Audio 16/audio_out 1"/>
+          <Connection other="Audio 2/audio_out 1"/>
+          <Connection other="Audio 3/audio_out 1"/>
+          <Connection other="Audio 4/audio_out 1"/>
+          <Connection other="Audio 5/audio_out 1"/>
+          <Connection other="Audio 8/audio_out 1"/>
+          <Connection other="Audio 9/audio_out 1"/>
+        </Port>
+        <Port name="Master/audio_in 2" type="audio" direction="Input">
+          <Connection other="Audio 1/audio_out 2"/>
+          <Connection other="Audio 10/audio_out 2"/>
+          <Connection other="Audio 11/audio_out 2"/>
+          <Connection other="Audio 12/audio_out 2"/>
+          <Connection other="Audio 13/audio_out 2"/>
+          <Connection other="Audio 14/audio_out 2"/>
+          <Connection other="Audio 15/audio_out 2"/>
+          <Connection other="Audio 16/audio_out 2"/>
+          <Connection other="Audio 2/audio_out 2"/>
+          <Connection other="Audio 3/audio_out 2"/>
+          <Connection other="Audio 4/audio_out 2"/>
+          <Connection other="Audio 5/audio_out 2"/>
+          <Connection other="Audio 8/audio_out 2"/>
+          <Connection other="Audio 9/audio_out 2"/>
+        </Port>
+      </IO>
+      <IO name="Master" id="108" direction="Output" default-type="audio">
+        <Port name="Master/audio_out 1" type="audio" direction="Output">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:playback_1"/>
+          <ExtConnection for="PulseAudio;;Default Playback"/>
+          <ExtConnection for="PulseAudio;;Default Playback" other="system:playback_1"/>
+        </Port>
+        <Port name="Master/audio_out 2" type="audio" direction="Output">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:playback_2"/>
+          <ExtConnection for="PulseAudio;;Default Playback"/>
+          <ExtConnection for="PulseAudio;;Default Playback" other="system:playback_2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="88" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="90" flags="Toggle" value="0" phase-invert="00"/>
+      <Controllable name="mastervolume" id="115" flags="GainLike,NotAutomatable" value="1"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="97" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="101" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="99" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="103" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="105" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="98" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="100" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-width" id="102" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="104" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="106" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="110" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="111" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="84" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="109" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="82" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="113" name="Master" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Processor id="112" name="meter-Master" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Slavable/>
+    </Route>
+    <Route version="7003" id="177" name="Audio 1" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="240" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="1" flags="AudioTrack,OrderSet" color="5308415"/>
+      <Controllable name="solo" id="202" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="208" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="210" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 1" id="223" direction="Input" default-type="audio">
+        <Port name="Audio 1/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_1"/>
+        </Port>
+      </IO>
+      <IO name="Audio 1" id="224" direction="Output" default-type="audio">
+        <Port name="Audio 1/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 1/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="204" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="206" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="213" flags="" value="0.15079367160797119"/>
+        <Controllable name="pan-width" id="217" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="215" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="219" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="221" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="214" interpolation-style="Linear" time-domain="AudioTime" state="Play">
+            <events>a0 0.15079367160797119
+a117418531440 0.21805453300476074
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="216" interpolation-style="Linear" time-domain="AudioTime" state="Play">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="218" interpolation-style="Linear" time-domain="AudioTime" state="Play">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="220" interpolation-style="Linear" time-domain="AudioTime" state="Play">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="222" interpolation-style="Linear" time-domain="AudioTime" state="Play">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="233" name="recorder:Audio 1" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="232" name="player:Audio 1" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="181" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="0">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="226" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="228" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="200" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="225" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="198" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="229" name="meter-Audio 1" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="230" name="Audio 1" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 1" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="238" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="236" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="234" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="245" name="Audio 2" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="308" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="2353339135"/>
+      <Controllable name="solo" id="270" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="276" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="278" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 2" id="291" direction="Input" default-type="audio">
+        <Port name="Audio 2/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="Audio 2" id="292" direction="Output" default-type="audio">
+        <Port name="Audio 2/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 2/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="272" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="274" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="281" flags="" value="0.79301351308822632"/>
+        <Controllable name="pan-width" id="285" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="283" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="287" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="289" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="282" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.79301351308822632
+a2069912880 0.82116788625717163
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="284" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="286" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="288" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="290" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="301" name="recorder:Audio 2" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="300" name="player:Audio 2" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="249" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="1">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="294" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="296" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="268" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="293" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="266" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="297" name="meter-Audio 2" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="298" name="Audio 2" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 2" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="306" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="304" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="302" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="313" name="Audio 3" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="376" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="160366847"/>
+      <Controllable name="solo" id="338" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="344" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="346" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 3" id="359" direction="Input" default-type="audio">
+        <Port name="Audio 3/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_3"/>
+        </Port>
+      </IO>
+      <IO name="Audio 3" id="360" direction="Output" default-type="audio">
+        <Port name="Audio 3/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 3/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="340" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="342" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="349" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="353" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="351" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="355" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="357" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="350" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="352" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-width" id="354" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="356" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="358" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="369" name="recorder:Audio 3" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="368" name="player:Audio 3" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="317" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="2">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="362" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="364" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="336" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="361" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="334" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="365" name="meter-Audio 3" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="366" name="Audio 3" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 3" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="374" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="372" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="370" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="381" name="Audio 4" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="444" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="2943680767"/>
+      <Controllable name="solo" id="406" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="412" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="414" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 4" id="427" direction="Input" default-type="audio">
+        <Port name="Audio 4/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_4"/>
+        </Port>
+      </IO>
+      <IO name="Audio 4" id="428" direction="Output" default-type="audio">
+        <Port name="Audio 4/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 4/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="408" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="410" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="417" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="421" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="419" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="423" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="425" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="418" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="420" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-width" id="422" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="424" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="426" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="437" name="recorder:Audio 4" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="436" name="player:Audio 4" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="385" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="3">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="430" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="432" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="404" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="429" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="402" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="9505" name="ACE Reverb" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="urn:ardour:a-reverb" count="1" custom="0">
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/caue/.config/ardour9/templates/Coelhos da Arte">
+          <Port symbol="blend" value="0.39793813228607178"/>
+          <Port symbol="roomsz" value="0.81701034307479858"/>
+          <Port symbol="enable" value="1"/>
+        </lv2>
+        <Controllable name="Blend" id="9507" flags="" value="0.39793813228607178" parameter="4" symbol="blend"/>
+        <Controllable name="Room Size" id="9509" flags="" value="0.81701034307479858" parameter="5" symbol="roomsz"/>
+        <Controllable name="Enable" id="9511" flags="Toggle" value="1" parameter="6" symbol="enable"/>
+      </Processor>
+      <Processor id="433" name="meter-Audio 4" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="434" name="Audio 4" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 4" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="442" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="440" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="438" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="449" name="Audio 5" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="512" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="9358591"/>
+      <Controllable name="solo" id="474" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="480" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="482" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 5" id="495" direction="Input" default-type="audio">
+        <Port name="Audio 5/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_5"/>
+        </Port>
+      </IO>
+      <IO name="Audio 5" id="496" direction="Output" default-type="audio">
+        <Port name="Audio 5/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 5/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="476" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="478" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="485" flags="" value="0.16666668653488159"/>
+        <Controllable name="pan-width" id="489" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="487" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="491" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="493" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="486" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.16666668653488159
+a117360460560 0.21805453300476074
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="488" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="490" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="492" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="494" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="505" name="recorder:Audio 5" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="504" name="player:Audio 5" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="453" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="4">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="498" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="500" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="472" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="497" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="470" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="9536" name="ACE Reverb" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="urn:ardour:a-reverb" count="1" custom="0">
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/caue/.config/ardour9/templates/Coelhos da Arte">
+          <Port symbol="blend" value="0.39793813228607178"/>
+          <Port symbol="roomsz" value="0.81701034307479858"/>
+          <Port symbol="enable" value="1"/>
+        </lv2>
+        <Controllable name="Blend" id="9529" flags="" value="0.39793813228607178" parameter="4" symbol="blend"/>
+        <Controllable name="Room Size" id="9530" flags="" value="0.81701034307479858" parameter="5" symbol="roomsz"/>
+        <Controllable name="Enable" id="9531" flags="Toggle" value="1" parameter="6" symbol="enable"/>
+      </Processor>
+      <Processor id="501" name="meter-Audio 5" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="502" name="Audio 5" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 5" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="510" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="508" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="506" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="653" name="Audio 8" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="716" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="4291559679"/>
+      <Controllable name="solo" id="678" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="684" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="686" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 8" id="699" direction="Input" default-type="audio">
+        <Port name="Audio 8/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_8"/>
+        </Port>
+      </IO>
+      <IO name="Audio 8" id="700" direction="Output" default-type="audio">
+        <Port name="Audio 8/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 8/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="680" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="682" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="689" flags="" value="0.78723400831222534"/>
+        <Controllable name="pan-width" id="693" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="691" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="695" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="697" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="690" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.78723400831222534
+a117342503040 0.78723400831222534
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="692" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="694" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="696" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="698" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="709" name="recorder:Audio 8" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="708" name="player:Audio 8" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="657" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="5">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="702" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="704" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="676" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="701" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="674" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="705" name="meter-Audio 8" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="706" name="Audio 8" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 8" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="714" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="712" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="710" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="721" name="Audio 9" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="784" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="3568986879"/>
+      <Controllable name="solo" id="746" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="752" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="754" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 9" id="767" direction="Input" default-type="audio">
+        <Port name="Audio 9/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_9"/>
+        </Port>
+      </IO>
+      <IO name="Audio 9" id="768" direction="Output" default-type="audio">
+        <Port name="Audio 9/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 9/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="748" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="750" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="757" flags="" value="0.78014183044433594"/>
+        <Controllable name="pan-width" id="761" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="759" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="763" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="765" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="758" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.78014183044433594
+a117342503040 0.78014183044433594
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="760" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="762" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="764" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="766" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="777" name="recorder:Audio 9" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="776" name="player:Audio 9" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="725" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="6">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="770" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="772" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="744" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="769" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="742" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="773" name="meter-Audio 9" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="774" name="Audio 9" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 9" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="782" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="780" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="778" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="789" name="Audio 10" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="852" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="1430257919"/>
+      <Controllable name="solo" id="814" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="820" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="822" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 10" id="835" direction="Input" default-type="audio">
+        <Port name="Audio 10/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_10"/>
+        </Port>
+      </IO>
+      <IO name="Audio 10" id="836" direction="Output" default-type="audio">
+        <Port name="Audio 10/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 10/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="816" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="818" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="825" flags="" value="0.21631205081939697"/>
+        <Controllable name="pan-width" id="829" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="827" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="831" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="833" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="826" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.21631205081939697
+a117342503040 0.21631205081939697
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="828" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="830" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="832" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="834" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="845" name="recorder:Audio 10" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="844" name="player:Audio 10" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="793" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="7">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="838" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="840" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="812" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="837" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="810" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="841" name="meter-Audio 10" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="842" name="Audio 10" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 10" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="850" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="848" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="846" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="857" name="Audio 11" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="920" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="4287824127"/>
+      <Controllable name="solo" id="882" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="888" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="890" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 11" id="903" direction="Input" default-type="audio">
+        <Port name="Audio 11/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_11"/>
+        </Port>
+      </IO>
+      <IO name="Audio 11" id="904" direction="Output" default-type="audio">
+        <Port name="Audio 11/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 11/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="884" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="886" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="893" flags="" value="0.36713287234306335"/>
+        <Controllable name="pan-width" id="897" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="895" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="899" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="901" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="894" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.36713287234306335
+a117342503040 0.36713287234306335
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="896" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="898" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="900" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="902" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="913" name="recorder:Audio 11" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="912" name="player:Audio 11" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="861" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="8">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="906" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="908" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="880" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="905" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="878" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="909" name="meter-Audio 11" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="910" name="Audio 11" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 11" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="918" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="916" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="914" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="925" name="Audio 12" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="988" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="4286743295"/>
+      <Controllable name="solo" id="950" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="956" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="958" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 12" id="971" direction="Input" default-type="audio">
+        <Port name="Audio 12/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_12"/>
+        </Port>
+      </IO>
+      <IO name="Audio 12" id="972" direction="Output" default-type="audio">
+        <Port name="Audio 12/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 12/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="952" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="954" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="961" flags="" value="0.72222220897674561"/>
+        <Controllable name="pan-width" id="965" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="963" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="967" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="969" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="962" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.72222220897674561
+a117253032960 0.72222220897674561
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="964" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="966" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="968" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="970" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="981" name="recorder:Audio 12" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="980" name="player:Audio 12" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="929" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="9">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="974" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="976" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="948" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="973" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="946" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="977" name="meter-Audio 12" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="978" name="Audio 12" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 12" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="986" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="984" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="982" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="993" name="Audio 13" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="1056" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="2550137087"/>
+      <Controllable name="solo" id="1018" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="1024" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="1026" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 13" id="1039" direction="Input" default-type="audio">
+        <Port name="Audio 13/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_13"/>
+        </Port>
+      </IO>
+      <IO name="Audio 13" id="1040" direction="Output" default-type="audio">
+        <Port name="Audio 13/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 13/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="1020" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="1022" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1029" flags="" value="0.72222220897674561"/>
+        <Controllable name="pan-width" id="1033" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="1031" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="1035" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="1037" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="1030" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.72222220897674561
+a117387338040 0.73809522390365601
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="1032" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="1034" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="1036" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="1038" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="1049" name="recorder:Audio 13" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="1048" name="player:Audio 13" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="997" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="10">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="1042" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="1044" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1016" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1041" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1014" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1045" name="meter-Audio 13" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="1046" name="Audio 13" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 13" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="1054" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="1052" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="1050" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="1061" name="Audio 14" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="1124" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="2399142143"/>
+      <Controllable name="solo" id="1086" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="1092" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="1094" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 14" id="1107" direction="Input" default-type="audio">
+        <Port name="Audio 14/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_14"/>
+        </Port>
+      </IO>
+      <IO name="Audio 14" id="1108" direction="Output" default-type="audio">
+        <Port name="Audio 14/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 14/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="1088" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="1090" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1097" flags="" value="0.26190477609634399"/>
+        <Controllable name="pan-width" id="1101" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="1099" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="1103" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="1105" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="1098" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.26190477609634399
+a117543316800 0.23015874624252319
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="1100" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="1102" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="1104" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="1106" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="1117" name="recorder:Audio 14" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="1116" name="player:Audio 14" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="1065" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="11">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="1110" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="1112" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1084" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1109" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1082" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1113" name="meter-Audio 14" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="1114" name="Audio 14" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 14" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="1122" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="1120" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="1118" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="1129" name="Audio 15" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="1192" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="13" flags="AudioTrack,OrderSet" color="603980031"/>
+      <Controllable name="solo" id="1154" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="1160" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="1162" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 15" id="1175" direction="Input" default-type="audio">
+        <Port name="Audio 15/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_15"/>
+        </Port>
+      </IO>
+      <IO name="Audio 15" id="1176" direction="Output" default-type="audio">
+        <Port name="Audio 15/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 15/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="1156" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="1158" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1165" flags="" value="0.18253970146179199"/>
+        <Controllable name="pan-width" id="1169" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="1167" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="1171" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="1173" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="1166" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0.18253970146179199
+a117334135800 0.19841271638870239
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-elevation" id="1168" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-width" id="1170" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-frontback" id="1172" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+          <AutomationList automation-id="pan-lfe" id="1174" interpolation-style="Linear" time-domain="AudioTime" state="Latch">
+            <events>a0 0
+a117342503040 0
+</events>
+          </AutomationList>
+        </Automation>
+      </Pannable>
+      <Processor id="1185" name="recorder:Audio 15" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="1184" name="player:Audio 15" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="1133" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="12">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="1178" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="1180" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1152" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1177" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1150" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1181" name="meter-Audio 15" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="1182" name="Audio 15" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 15" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="1190" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="1188" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="1186" flags="Toggle,RealTime" value="1"/>
+    </Route>
+    <Route version="7003" id="1197" name="Audio 16" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="1260" alignment-choice="Automatic" mode="Normal">
+      <ProgramVersion created-with="Ardour 9.5" modified-with="Ardour 9.7"/>
+      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="255"/>
+      <Controllable name="solo" id="1222" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="1228" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="1230" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 16" id="1243" direction="Input" default-type="audio">
+        <Port name="Audio 16/audio_in 1" type="audio" direction="Input">
+          <ExtConnection for="ALSA;;MBS16CH"/>
+          <ExtConnection for="ALSA;;MBS16CH" other="system:capture_16"/>
+        </Port>
+      </IO>
+      <IO name="Audio 16" id="1244" direction="Output" default-type="audio">
+        <Port name="Audio 16/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Audio 16/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="1224" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="1226" flags="Toggle" value="0" phase-invert="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1233" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="1237" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="1235" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="1239" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="1241" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="1234" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="1236" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-width" id="1238" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="1240" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="1242" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="1253" name="recorder:Audio 16" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="1252" name="player:Audio 16" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="1201" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="13">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" capture-duration="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0"/>
+        </Triggers>
+      </Processor>
+      <Processor id="1246" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="1248" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1220" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1245" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1218" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1249" name="meter-Audio 16" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="1250" name="Audio 16" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Audio 16" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="1258" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="1256" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="1254" flags="Toggle,RealTime" value="1"/>
+    </Route>
+  </Routes>
+  <Playlists>
+    <Playlist id="240" name="Audio 1.1" type="audio" orig-track-id="177" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="308" name="Audio 2.1" type="audio" orig-track-id="245" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="376" name="Audio 3.1" type="audio" orig-track-id="313" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="444" name="Audio 4.1" type="audio" orig-track-id="381" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="512" name="Audio 5.1" type="audio" orig-track-id="449" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="716" name="Audio 8.1" type="audio" orig-track-id="653" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="784" name="Audio 9.1" type="audio" orig-track-id="721" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="852" name="Audio 10.1" type="audio" orig-track-id="789" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="920" name="Audio 11.1" type="audio" orig-track-id="857" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="988" name="Audio 12.1" type="audio" orig-track-id="925" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="1056" name="Audio 13.1" type="audio" orig-track-id="993" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="1124" name="Audio 14.1" type="audio" orig-track-id="1061" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="1192" name="Audio 15.1" type="audio" orig-track-id="1129" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+    <Playlist id="1260" name="Audio 16.1" type="audio" orig-track-id="1197" pgroup-id="2026-06-09 19.35.05" shared-with-ids="" frozen="0"/>
+  </Playlists>
+  <UnusedPlaylists/>
+  <RouteGroups/>
+  <Speakers>
+    <Speaker azimuth="240" elevation="0" distance="1"/>
+    <Speaker azimuth="120" elevation="0" distance="1"/>
+  </Speakers>
+  <TempoMap superclocks-per-second="282240000">
+    <Tempos>
+      <Tempo npm="120" enpm="120" note-type="4" type="Constant" locked-to-meter="0" continuing="0" active="1" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
+    </Tempos>
+    <Meters>
+      <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
+    </Meters>
+    <MusicTimes/>
+  </TempoMap>
+  <ControlProtocols>
+    <Protocol name="Ableton Push 2" active="0"/>
+    <Protocol name="ContourDesign" active="0"/>
+    <Protocol name="Generic MIDI" active="0"/>
+    <Protocol name="MCP HTTP Server (Experimental)" active="0"/>
+    <Protocol name="Mackie" active="0"/>
+    <Protocol name="Novation Launch Control XL" active="0"/>
+    <Protocol name="Novation Launchkey 4" active="0"/>
+    <Protocol name="Novation Launchpad Mini" active="0"/>
+    <Protocol name="Novation Launchpad Pro" active="0"/>
+    <Protocol name="Novation Launchpad X" active="0"/>
+    <Protocol name="Open Sound Control (OSC)" active="0"/>
+    <Protocol name="PreSonus FaderPort" active="0"/>
+    <Protocol name="PreSonus FaderPort16" active="0"/>
+    <Protocol name="PreSonus FaderPort2" active="0"/>
+    <Protocol name="PreSonus FaderPort8" active="0"/>
+    <Protocol name="SSL 360: UF8 UF1" active="0"/>
+    <Protocol name="Softube Console1" active="0"/>
+    <Protocol name="Steinberg CC121" active="0"/>
+    <Protocol name="Tascam US-2400" active="0"/>
+    <Protocol name="WebSockets Server (Experimental)" active="0"/>
+  </ControlProtocols>
+  <Extra>
+    <UI>
+      <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="session-options-editor" visible="0" x-off="0" y-off="233" x-size="728" y-size="462"/>
+      <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="610"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="642" y-size="503"/>
+      <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="0" x-off="629" y-off="310" x-size="612" y-size="459"/>
+      <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="script-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="0" x-off="76" y-off="215" x-size="520" y-size="78"/>
+      <Window name="big-transport" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="virtual-keyboard" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="library-downloader" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="0" x-off="139" y-off="78" x-size="439" y-size="574"/>
+      <Window name="midi-connection-manager" visible="0" x-off="191" y-off="189" x-size="364" y-size="388"/>
+      <Window name="luawindow" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="rtawindow" visible="0" x-off="0" y-off="744" x-size="626" y-size="336"/>
+      <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="io-plugins" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="plugin-manager" visible="0" x-off="29" y-off="167" x-size="641" y-size="600"/>
+      <Window name="plugin-dsp-load" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="dsp-statistics" visible="0" x-off="241" y-off="471" x-size="331" y-size="296"/>
+      <Window name="transport-masters" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-78" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-177" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-245" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-313" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-381" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-449" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-517" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-585" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-653" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-721" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-789" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-857" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-925" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-993" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1061" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1129" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1197" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <GUIObjectState>
+        <Object id="rtav 78" height="66"/>
+        <Object id="automation 82" height="66" visible="0"/>
+        <Object id="automation 84" height="66" visible="0"/>
+        <Object id="automation 78 12/0/0" height="66" visible="0"/>
+        <Object id="automation 97" height="66" visible="0"/>
+        <Object id="strip 78">
+          <Object id="processor 109">
+            <Object id="control 82" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="rtav 177" height="66"/>
+        <Object id="automation 198" height="66" visible="0"/>
+        <Object id="automation 200" height="66" visible="0"/>
+        <Object id="automation 177 12/0/0" height="66" visible="0"/>
+        <Object id="automation 213" height="66" visible="0"/>
+        <Object id="rtav 245" height="66"/>
+        <Object id="automation 266" height="66" visible="0"/>
+        <Object id="automation 268" height="66" visible="0"/>
+        <Object id="automation 245 12/0/0" height="66" visible="0"/>
+        <Object id="automation 281" height="66" visible="0"/>
+        <Object id="rtav 313" height="66"/>
+        <Object id="automation 334" height="66" visible="0"/>
+        <Object id="automation 336" height="66" visible="0"/>
+        <Object id="automation 313 12/0/0" height="66" visible="0"/>
+        <Object id="automation 349" height="66" visible="0"/>
+        <Object id="rtav 381" height="66"/>
+        <Object id="automation 402" height="66" visible="0"/>
+        <Object id="automation 404" height="66" visible="0"/>
+        <Object id="automation 381 12/0/0" height="66" visible="0"/>
+        <Object id="automation 417" height="66" visible="0"/>
+        <Object id="rtav 449" height="66"/>
+        <Object id="automation 470" height="66" visible="0"/>
+        <Object id="automation 472" height="66" visible="0"/>
+        <Object id="automation 449 12/0/0" height="66" visible="0"/>
+        <Object id="automation 485" height="66" visible="0"/>
+        <Object id="rtav 517" height="66"/>
+        <Object id="automation 538" height="66" visible="0"/>
+        <Object id="automation 540" height="66" visible="0"/>
+        <Object id="automation 517 12/0/0" height="66" visible="0"/>
+        <Object id="automation 553" height="66" visible="0"/>
+        <Object id="rtav 585" height="66"/>
+        <Object id="automation 606" height="66" visible="0"/>
+        <Object id="automation 608" height="66" visible="0"/>
+        <Object id="automation 585 12/0/0" height="66" visible="0"/>
+        <Object id="automation 621" height="66" visible="0"/>
+        <Object id="rtav 653" height="66"/>
+        <Object id="automation 674" height="66" visible="0"/>
+        <Object id="automation 676" height="66" visible="0"/>
+        <Object id="automation 653 12/0/0" height="66" visible="0"/>
+        <Object id="automation 689" height="66" visible="0"/>
+        <Object id="rtav 721" height="66"/>
+        <Object id="automation 742" height="66" visible="0"/>
+        <Object id="automation 744" height="66" visible="0"/>
+        <Object id="automation 721 12/0/0" height="66" visible="0"/>
+        <Object id="automation 757" height="66" visible="0"/>
+        <Object id="rtav 789" height="66"/>
+        <Object id="automation 810" height="66" visible="0"/>
+        <Object id="automation 812" height="66" visible="0"/>
+        <Object id="automation 789 12/0/0" height="66" visible="0"/>
+        <Object id="automation 825" height="66" visible="0"/>
+        <Object id="rtav 857" height="66"/>
+        <Object id="automation 878" height="66" visible="0"/>
+        <Object id="automation 880" height="66" visible="0"/>
+        <Object id="automation 857 12/0/0" height="66" visible="0"/>
+        <Object id="automation 893" height="66" visible="0"/>
+        <Object id="rtav 925" height="66"/>
+        <Object id="automation 946" height="66" visible="0"/>
+        <Object id="automation 948" height="66" visible="0"/>
+        <Object id="automation 925 12/0/0" height="66" visible="0"/>
+        <Object id="automation 961" height="66" visible="0"/>
+        <Object id="rtav 993" height="66"/>
+        <Object id="automation 1014" height="66" visible="0"/>
+        <Object id="automation 1016" height="66" visible="0"/>
+        <Object id="automation 993 12/0/0" height="66" visible="0"/>
+        <Object id="automation 1029" height="66" visible="0"/>
+        <Object id="rtav 1061" height="66"/>
+        <Object id="automation 1082" height="66" visible="0"/>
+        <Object id="automation 1084" height="66" visible="0"/>
+        <Object id="automation 1061 12/0/0" height="66" visible="0"/>
+        <Object id="automation 1097" height="66" visible="0"/>
+        <Object id="rtav 1129" height="66"/>
+        <Object id="automation 1150" height="66" visible="0"/>
+        <Object id="automation 1152" height="66" visible="0"/>
+        <Object id="automation 1129 12/0/0" height="66" visible="0"/>
+        <Object id="automation 1165" height="66" visible="0"/>
+        <Object id="rtav 1197" height="66"/>
+        <Object id="automation 1218" height="66" visible="0"/>
+        <Object id="automation 1220" height="66" visible="0"/>
+        <Object id="automation 1197 12/0/0" height="66" visible="0"/>
+        <Object id="automation 1233" height="66" visible="0"/>
+        <Object id="strip 177">
+          <Object id="processor 225">
+            <Object id="control 198" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 245">
+          <Object id="processor 293">
+            <Object id="control 266" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 313">
+          <Object id="processor 361">
+            <Object id="control 334" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 381">
+          <Object id="processor 429">
+            <Object id="control 402" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 449">
+          <Object id="processor 497">
+            <Object id="control 470" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 517">
+          <Object id="processor 565">
+            <Object id="control 538" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 585">
+          <Object id="processor 633">
+            <Object id="control 606" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 653">
+          <Object id="processor 701">
+            <Object id="control 674" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 721">
+          <Object id="processor 769">
+            <Object id="control 742" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 789">
+          <Object id="processor 837">
+            <Object id="control 810" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 857">
+          <Object id="processor 905">
+            <Object id="control 878" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 925">
+          <Object id="processor 973">
+            <Object id="control 946" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 993">
+          <Object id="processor 1041">
+            <Object id="control 1014" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 1061">
+          <Object id="processor 1109">
+            <Object id="control 1082" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 1129">
+          <Object id="processor 1177">
+            <Object id="control 1150" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 1197">
+          <Object id="processor 1245">
+            <Object id="control 1218" visible="0"/>
+          </Object>
+        </Object>
+      </GUIObjectState>
+    </UI>
+    <AddRouteDialog LastRouteType="FoldbackBus"/>
+    <RulerVisibility minsec="0" timecode="1" samples="0" bbt="0" meter="0" tempo="0" rangemarker="1" marker="0" arrangement="0" videotl="0"/>
+    <Videomonitor active="0"/>
+  </Extra>
+  <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>
+  <IOPlugins/>
+</Session>

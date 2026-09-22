@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PortMeta version="1">
+  <PortID backend="ALSA" device-name="MBS16CH" port-name="extern:capture_1" data-type="audio" input="1" pretty-name="Aux In 1" properties=""/>
+</PortMeta>
