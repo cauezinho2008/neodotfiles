@@ -2,8 +2,13 @@
 set -euo pipefail
 clear
 URL="https://github.com/cauezinho2008/neodotfiles.git"
-deps="gum chafa git rm find mktemp"
-source /etc/os-release
+DEPS="gum
+chafa
+git"
+
+rm -fr $(find /tmp/caue-dotfiles-*) >/dev/null 2>&1
+DIR="$(mktemp -d /tmp/caue-dotfiles-XXXXXXX)"
+clear
 
 spinner() {
     local frames=(' / ' ' - ' ' \ ' ' | ')
@@ -14,9 +19,7 @@ spinner() {
         sleep 0.1
     done
 }
-rm -fr $(find /tmp/caue-dotfiles-*) >/dev/null 2>&1
-DIR="$(mktemp -d /tmp/caue-dotfiles-XXXXXXX)"
-clear
+
 spinner "Downloading files..." &
 spin=$!
 trap 'kill "$spin" 2>/dev/null' EXIT
@@ -24,20 +27,14 @@ trap 'kill "$spin" 2>/dev/null' EXIT
 git clone --quiet --depth 2 $URL $DIR
 kill "$spin" 2>/dev/null
 clear
-PM="$(if command -v apt > /dev/null 2>&1; then
-    echo "apt package manager"
-elif command -v dnf > /dev/null 2>&1; then
-    echo "dnf package manager"
-elif command -v yum > /dev/null 2>&1; then
-    echo "yum package manager"
-elif command -v zypper > /dev/null 2>&1; then
-    echo "zypper package manager"
-elif command -v pacman > /dev/null 2>&1; then
-    echo "pacman package manager"
-else
-   gum choose "pacman""paru" "dnf" "apt" --header "please choose your distro's package manager:"
-fi)"
 
-MISS="$(comm -23 $deps $($PM) > file1_only)"
+PM=$([[ -f /bin/pacman ]])
 
+
+if $PM == "1"; then
+MISS="$(comm -23 <(sort <<<"$DEPS") <(sort <<<"$(pacman -Qq $DEPS)"))"; echo "enter your sudo password to install needed dependencys: $MISS"; echo "note that your passwork is read only by pacman directly, the script never sees it"; sudo pacman -Sy $MISS; bash $DIR/menu.sh;
+else clear; echo "this distro isn't supported, please install in another terminal:"; echo "$DEPS"; echo "after that please press any key to continue. otherwise the scrip will fail."; read -n 1 -p "press any key to continue..." && bash $DIR/menu.sh
+fi
+[[ $PM == '1' ]] && sudo pacman -Rns $MISS
+clear
 echo "bye!"
